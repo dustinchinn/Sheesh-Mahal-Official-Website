@@ -207,9 +207,9 @@
 
   /* ---------- CONTACT ---------- */
   .contact-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1.4rem; max-width:980px; margin:0 auto; }
-  .contact-card{ border:1px solid var(--line); padding:2rem 1.5rem; }
+  .contact-card{ border:1px solid var(--line); padding:2rem 1.5rem; overflow:hidden; }
   .contact-card .eyebrow{ display:block; margin-bottom:0.8rem; }
-  .contact-card a{ font-size:0.95rem; color:var(--bone); border-bottom:1px solid transparent; }
+  .contact-card a{ font-size:0.95rem; color:var(--bone); border-bottom:1px solid transparent; display:inline-block; max-width:100%; overflow-wrap:break-word; word-break:break-word; }
   .contact-card a:hover{ border-color:var(--gold); color:var(--gold); }
 
   /* ---------- FOOTER / LINKS ---------- */
