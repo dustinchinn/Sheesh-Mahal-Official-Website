@@ -1,2 +1,2 @@
-# sheesh-mahal-website
-Website for the band Sheesh Mahal
+# sheesh-mahal-official-website
+Official website for the band Sheesh Mahal
