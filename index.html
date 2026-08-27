@@ -246,7 +246,18 @@
   }
   .fans-of{ text-align:center; margin-top:3rem; }
   .fans-of p{ font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.2rem; color:var(--bone); max-width:52ch; margin:0.6rem auto 0; line-height:1.6; }
+
+  .spotify-embed{ max-width:660px; margin:3rem auto 0; border-radius:12px; overflow:hidden; }
+  .spotify-embed iframe{ display:block; width:100%; border:none; }
 </style>
+<!--
+  CLOUDFLARE WEB ANALYTICS
+  1. Go to https://dash.cloudflare.com -> Analytics & Logs -> Web Analytics -> Add a site
+  2. Choose the manual JS snippet setup (no DNS change / no domain ownership needed)
+  3. Copy the token Cloudflare gives you and paste it into data-cf-beacon below, replacing YOUR_TOKEN_HERE
+  4. Delete the <!-- and --> around the script tag below to activate it
+-->
+<!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script> -->
 </head>
 <body>
 
@@ -317,6 +328,10 @@
       <a href="https://sheeshmahal.bandcamp.com" target="_blank" rel="noopener">Bandcamp</a>
       <a href="https://on.soundcloud.com/819lJls3Gw0kGgdFln" target="_blank" rel="noopener">SoundCloud</a>
       <a href="https://music.amazon.com/artists/B0C9VBSNFM/sheesh-mahal" target="_blank" rel="noopener">Amazon</a>
+    </div>
+
+    <div class="spotify-embed">
+      <iframe src="https://open.spotify.com/embed/artist/64LVYFsZGu6WZBZqA8P4fP?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Sheesh Mahal on Spotify"></iframe>
     </div>
 
     <div class="fans-of">
